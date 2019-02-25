@@ -18,7 +18,7 @@ eureka:
 
 ---
 spring:
-    profiles: test
+    profiles: cloud
 eureka:
   instance:
     nonSecurePort: 8081
@@ -28,7 +28,7 @@ eureka:
       defaultZone: http://localhost:8762/eureka/
 ---
 spring:
-    profiles: cloud
+    profiles: test
 eureka:
   instance:
     nonSecurePort: 8083
