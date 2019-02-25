@@ -6,7 +6,7 @@ eureka:
 
 ---
 spring:
-    profiles: dev
+    profiles: cloud
 eureka:
   instance:
     nonSecurePort: 80
@@ -18,7 +18,7 @@ eureka:
 
 ---
 spring:
-    profiles: cloud
+    profiles: dev
 eureka:
   instance:
     nonSecurePort: 8081
