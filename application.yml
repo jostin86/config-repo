@@ -13,10 +13,10 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
-      
+
 ---
 spring:
-    profile: dev
+    profile: test
 eureka:
   instance:
     nonSecurePort: 8080
